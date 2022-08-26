@@ -1,0 +1,14 @@
+Initializing gui preferences from file  /home/ic_contest/.synopsys_icc_prefs.tcl
+icc_shell> gui_start
+Information: Visibility is turned ON for cells and cell contents because the task is set to Block Implementation (GUI-026)
+icc_shell> open_mw_lib LEDDC
+{LEDDC}
+icc_shell> open_mw_cel APR_FINISH
+Preparing data for query................... 
+Warning: Unit conflict found: Milkyway technology file power unit is pW; main library power unit is mW. (IFS-007)
+Information: Opened "APR_FINISH.CEL;1" from "/home/ic_contest/F64066224/2017_grad_final_LEDDC_v2/LEDDC" library. (MWUI-068)
+{APR_FINISH}
+icc_shell> exit
+
+Thank you...
+
