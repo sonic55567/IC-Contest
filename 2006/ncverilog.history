@@ -1,0 +1,38 @@
+s1(27Jan2021:19:41:20):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v 
+s2(27Jan2021:19:42:08):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v 
+s3(27Jan2021:19:42:27):  ncverilog testfixture.v triangle.v 
+s4(27Jan2021:19:42:49):  ncverilog testfixture.v triangle.v 
+s5(27Jan2021:19:43:03):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v 
+s6(27Jan2021:19:45:08):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v 
+s7(27Jan2021:19:49:11):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v 
+s8(27Jan2021:19:49:31):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v 
+s9(27Jan2021:19:49:47):  ncverilog testfixture.v triangle.v 
+s10(27Jan2021:19:53:26):  ncverilog testfixture.v triangle.v 
+s11(27Jan2021:19:53:29):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v 
+s12(27Jan2021:19:54:16):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v 
+s13(27Jan2021:19:54:33):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v 
+s14(27Jan2021:19:54:48):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v 
+s15(27Jan2021:19:54:59):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v 
+s16(27Jan2021:19:55:04):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v 
+s17(27Jan2021:19:55:26):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v 
+s18(27Jan2021:19:55:43):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v 
+s19(27Jan2021:19:56:02):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v 
+s20(27Jan2021:19:56:19):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v 
+s21(22Mar2021:23:24:34):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v 
+s22(22Mar2021:23:24:48):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v +define+sdf 
+s23(22Mar2021:23:25:39):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v +define+SDF 
+s24(22Mar2021:23:27:22):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v +define+SDF 
+s25(22Mar2021:23:28:33):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v +define+SDF 
+s26(22Mar2021:23:29:02):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v +define+SDF 
+s27(22Mar2021:23:29:18):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v +define+SDF 
+s28(22Mar2021:23:29:25):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v +define+SDF 
+s29(22Mar2021:23:29:47):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v +define+SDF 
+s30(22Mar2021:23:31:40):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v +define+SDF 
+s31(22Mar2021:23:34:07):  ncverilog testfixture.v triangle.v 
+s32(22Mar2021:23:34:36):  ncverilog testfixture.v triangle.v 
+s33(22Mar2021:23:34:56):  ncverilog testfixture.v triangle.v 
+s34(22Mar2021:23:35:23):  ncverilog testfixture.v triangle.v 
+s35(22Mar2021:23:36:21):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v +define+SDF 
+s36(22Mar2021:23:36:37):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v +define+SDF 
+s37(22Mar2021:23:36:52):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v +define+SDF 
+s38(22Mar2021:23:37:08):  ncverilog testfixture.v triangle_syn.v -v tsmc13_neg.v +define+SDF 

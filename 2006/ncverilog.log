@@ -1,0 +1,122 @@
+ncverilog: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Mar 22, 2021 at 23:37:08 CST
+ncverilog
+	testfixture.v
+	triangle_syn.v
+	-v
+	tsmc13_neg.v
+	+define+SDF
+Recompiling... reason: file './testfixture.v' is newer than expected.
+	expected: Mon Mar 22 23:36:51 2021
+	actual:   Mon Mar 22 23:37:08 2021
+file: testfixture.v
+	module worklib.test:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+		Caching library 'tsmc13_neg' ....... Done
+	Elaborating the design hierarchy:
+  DFFRX1 \y2_reg[1]  ( .D(n78), .CK(clk), .RN(n137), .Q(y2[1]) );
+                   |
+ncelab: *W,CUVWSP (./triangle_syn.v,139|19): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \y3_reg[2]  ( .D(n90), .CK(clk), .RN(n137), .Q(y3[2]) );
+                   |
+ncelab: *W,CUVWSP (./triangle_syn.v,141|19): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \y2_reg[0]  ( .D(n77), .CK(clk), .RN(n137), .Q(y2[0]) );
+                   |
+ncelab: *W,CUVWSP (./triangle_syn.v,142|19): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \x2_reg[2]  ( .D(n95), .CK(clk), .RN(n137), .Q(x2[2]) );
+                   |
+ncelab: *W,CUVWSP (./triangle_syn.v,143|19): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \y2_reg[2]  ( .D(n79), .CK(clk), .RN(n137), .Q(y2[2]) );
+                   |
+ncelab: *W,CUVWSP (./triangle_syn.v,144|19): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \x1_reg[2]  ( .D(n63), .CK(clk), .RN(n137), .QN(n152) );
+                   |
+ncelab: *W,CUVWSP (./triangle_syn.v,145|19): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 \x1_reg[1]  ( .D(n62), .CK(clk), .RN(n137), .QN(n153) );
+                   |
+ncelab: *W,CUVWSP (./triangle_syn.v,146|19): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 \x1_reg[0]  ( .D(n61), .CK(clk), .RN(n137), .Q(\x1[0] ) );
+                   |
+ncelab: *W,CUVWSP (./triangle_syn.v,147|19): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 busy_reg ( .D(n85), .CK(clk), .RN(n137), .QN(n58) );
+                |
+ncelab: *W,CUVWSP (./triangle_syn.v,148|16): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 po_reg ( .D(n76), .CK(clk), .RN(n137), .QN(n60) );
+              |
+ncelab: *W,CUVWSP (./triangle_syn.v,149|14): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 \counter_reg[1]  ( .D(n97), .CK(clk), .RN(n137), .QN(n65) );
+                        |
+ncelab: *W,CUVWSP (./triangle_syn.v,151|24): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): Q
+
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.test:v <0x6c246e0e>
+			streams:   8, words: 19384
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                   Instances  Unique
+		Modules:                 238      39
+		UDPs:                     32       2
+		Primitives:              483       8
+		Timing outputs:          262      38
+		Registers:                56      28
+		Scalar wires:            299       -
+		Expanded wires:            6       2
+		Always blocks:             3       3
+		Initial blocks:            5       5
+		Pseudo assignments:        1       1
+		Timing checks:           294      38
+		Delayed tcheck signals:   96      35
+		Simulation timescale:    1ps
+	Writing initial simulation snapshot: worklib.test:v
+Loading snapshot worklib.test:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,DVEXACC: some objects excluded from $dumpvars due to access restrictions, use +access+r on command line for access to all objects.
+            File: ./testfixture.v, line = 39, pos = 11
+           Scope: test
+            Time: 0 FS + 0
+
+
+****** START to VERIFY the Triangel Rendering Enginen OPERATION ******
+
+Waiting for the rendering operation of the triangle points with:
+(x1, y1)=(1, 1)
+(x2, y2)=(4, 1)
+(x3, y3)=(1, 7)
+Waiting for the rendering operation of the triangle points with:
+(x1, y1)=(1, 1)
+(x2, y2)=(7, 1)
+(x3, y3)=(1, 3)
+PASS! All data have been generated successfully!
+---------------------------------------------
+Total delay:        9000 ns
+---------------------------------------------
+Simulation complete via $finish(1) at time 950 NS + 0
+./testfixture.v:146       $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Mar 22, 2021 at 23:37:09 CST  (total: 00:00:01)
