@@ -1,0 +1,6 @@
+s1(23Mar2022:16:16:27):  ncverilog testfixture.v LBP.v 
+s2(23Mar2022:16:16:40):  ncverilog testfixture.v LBP.v 
+s3(23Mar2022:16:16:46):  ncverilog testfixture.v LBP.v 
+s4(23Mar2022:16:18:25):  ncverilog testfixture.v LBP.v 
+s5(23Mar2022:16:20:02):  ncverilog testfixture.v LBP_syn.v -v tsmc13_neg.v 
+s6(23Mar2022:16:20:13):  ncverilog testfixture.v LBP_syn.v -v tsmc13_neg.v +define+SDF 
